@@ -12,8 +12,9 @@ Read the sibling docs checkout, not detached backend/frontend submodule copies:
 
 The owner chose **manual deployment**. Do not assume anything was committed,
 pushed, installed, or deployed merely because tests passed; check current Git
-and server state. This directory is a separate local Git repository with no
-remote configured yet. Create/publish its remote only when requested.
+and server state. This is a separate Git repository on `main`, with `origin` at
+`https://github.com/nevans-job-tracker/chrome-extension-job-tracker-close-posting.git`.
+The owner requested connecting and publishing this remote on 2026-09-11.
 
 ## Contract and design
 
