@@ -1,0 +1,11 @@
+{
+  "name": "chrome-extension-job-tracker-close-posting",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "configure": "node scripts/configure.mjs"
+  },
+  "engines": {"node": ">=22"}
+}
