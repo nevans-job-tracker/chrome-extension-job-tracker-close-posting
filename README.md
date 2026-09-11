@@ -74,6 +74,7 @@ Regenerate the committed PNG icons on Windows with
 extension; orange and a minus distinguish this action from saving a new job.
 
 Verified 2026-09-11: 46 extension tests; 304 backend tests; real-HTTP smoke test;
-122 existing importer tests. Actual Chrome installation/toolbar behavior,
-real posting redirects, and deployed MariaDB behavior still need the manual
-checks in the deployment checklist. Do not describe those as already verified.
+122 existing importer tests. Backend deployment succeeded and the owner
+confirmed a successful manual Chrome test on the same date. This confirms the
+basic workflow; all-site redirect behavior and concurrent MariaDB requests were
+not separately verified live.

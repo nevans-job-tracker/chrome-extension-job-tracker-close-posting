@@ -1,7 +1,8 @@
 # Posting Closed extension — project context
 
 Separate manual Chrome action for Job Tracker. Implemented locally on
-2026-09-11; deployment and actual Chrome acceptance remain pending.
+2026-09-11. Backend deployed at `16398b1`; the owner tested the extension manually
+and confirmed it worked. The initial manual closure feature is complete.
 
 ## Shared context
 
@@ -51,6 +52,6 @@ noreply email for both author and committer. Repo-local Git identity keeps futur
 commits from inheriting the global personal email. The local configured manifest
 was preserved in place, so the Chrome installation directory is unchanged.
 
-Finish the manual deployment checklist with the owner. Chrome installation and
-live acceptance are still outstanding. If exact matching frequently misses
+The owner has confirmed the manual workflow works. No further implementation
+or deployment is needed for the initial feature. If exact matching frequently misses
 real redirects, discuss that evidence before adding site-specific URL handling.
